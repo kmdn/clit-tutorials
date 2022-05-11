@@ -1,3 +1,4 @@
+# How to run mention detection as a stand-alone.
 0. Run the combining linking techniques (CLiT) framework.
 1. Access the combining linking techniques (CLiT) front-end interface. E.g. open http://localhost:8080 (may depend on your configuration) in your browser.
 2. Press "Add Complex Linker Pipeline".
