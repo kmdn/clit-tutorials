@@ -17,11 +17,12 @@ This framework allows its users to use a set of readily available pipeline compo
     * DBpediaLookup
     * WikidataDict
 
-There are no default entity disambiguators for now, although REL is being worked on.  
+* for entity disambiguation:
+	* Radboud Entity Linker (REL)
 
-Even though the list contains a wide choice of components, maybe not so for entity disambiguators due to the lack of services that offer that part of the pipeline, this framework still offers another possibility to intergrate own components, which gives the users a complete control over the pipeline.
-To be able to easily do so, and for each component there is a very simple template script, that provides a web service, which then will comunicate with the framework's backend, to provide the output of the pipeline's component.
-Here is a sketch of the idea behind this:
+Despite our supported list containing a wide choice of components, this framework still offers another possibility of intergrating *your* components, giving you complete control over the pipeline.
+To easily do so, there is a very simple template script for each component type. These provide a simple web service, comunicating with the framework's backend, to provide the output of the pipeline's component.
+Here is a sketch illustrating the idea behind this:
 
     +-----------------------------------------------------------------------------------------------------------------+
     |                                                                                                                 |
@@ -48,7 +49,7 @@ Here is a sketch of the idea behind this:
                         |                      |                  |                           |                   | |
                         |    Own MD            |                  |                           |   Own ED          | |
                         |                      |                  |                           |                   | |
-                        |    localhost:3001    |                  |                           |   localhost:3003  +-+
+                        |    localhost:5001    |                  |                           |   localhost:5003  +-+
                         |                      +------------------+                           |                   |
                         +----------------------+                                              +-------------------+
 
