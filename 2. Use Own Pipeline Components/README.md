@@ -20,7 +20,7 @@ This framework allows its users to use a set of readily available pipeline compo
 * for entity disambiguation:
 	* Radboud Entity Linker (REL)
 
-Despite our supported list containing a wide choice of components, this framework still offers another possibility of intergrating *your* components, giving you complete control over the pipeline.
+Despite our supported list containing a wide choice of components, this framework still offers another possibility of intergrating *your* components, giving you complete control over the pipeline out-of-the-box.
 To easily do so, there is a very simple template script for each component type. These provide a simple web service, comunicating with the framework's backend, to provide the output of the pipeline's component.
 Here is a sketch illustrating the idea behind this:
 
