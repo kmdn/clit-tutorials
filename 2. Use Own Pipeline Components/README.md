@@ -1,6 +1,6 @@
 # Integrate own pipeline components
 This framework allows its users to use a set of readily available pipeline components:
-* for mention detection:
+* Mention Detection (MD):
     * AIDA
     * Babelify
     * DBpediaSpotlight
@@ -13,11 +13,11 @@ This framework allows its users to use a set of readily available pipeline compo
     * TextRazor
     * spaCy
  
-* for candidate generation:
+* Candidate Generation (CG):
     * DBpediaLookup
     * WikidataDict
 
-* for entity disambiguation:
+* Entity Disambiguation (ED):
 	* Radboud Entity Linker (REL)
 
 Despite our supported list containing a wide choice of components, this framework still offers another possibility of intergrating *your* components, giving you complete control over the pipeline out-of-the-box.
